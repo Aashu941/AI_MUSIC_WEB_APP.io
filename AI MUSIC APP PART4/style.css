@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+body
+{
+    background-size: cover;
+}
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.heading span
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;   
+}
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+.div_speed
+{
+    float: left;
+}
+.div_speed_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.div_volume
+{
+    float: right;
+}
+.div_volume_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+#volume
+{
+    font-size: 23px;
+    margin: 15px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+}
